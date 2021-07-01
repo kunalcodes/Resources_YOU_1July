@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/vlogo"
+        style="@style/logo_style" />
+
+    <Button style="@style/close_style" />
+
+    <TextView
+        android:id="@+id/tvmenu"
+        style="@style/title_style"
+        android:text="@string/add_new_employee_text" />
+
+    <View style="@style/box_style" />
+
+    <TextView
+        android:id="@+id/tvname"
+        style="@style/text_style"
+        android:layout_marginTop="230dp"
+        android:text="@string/title_text" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginTop="270dp"
+        android:text="@string/first_name_text" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginTop="310dp"
+        android:text="@string/last_name_text" />
+
+    <TextView
+        style="@style/text_style"
+        android:layout_marginTop="350dp"
+        android:text="@string/work_email_text" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_marginTop="225dp"
+        android:hint="@string/enter_title_hint" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_marginTop="265dp"
+        android:hint="@string/jonathan_hint" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_marginTop="305dp"
+        android:hint="@string/doe_hint" />
+
+    <EditText
+        style="@style/edittext_style"
+        android:layout_marginTop="345dp"
+        android:hint="@string/jonthan_doe_cakehr_com_hint" />
+
+    <TextView
+        style="@style/hint_style"
+        android:layout_marginTop="375dp"
+        android:hint="@string/this_is_also_used_as_logint_for_cakehr_hint" />
+
+
+</RelativeLayout>

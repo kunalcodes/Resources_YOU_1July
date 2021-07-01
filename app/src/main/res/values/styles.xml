@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">70dp</item>
+    </style>
+
+    <style name="edittext_style">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">160dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/menu_bg</item>
+    </style>
+
+    <style name="hint_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">165dp</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_below">@id/vlogo</item>
+    </style>
+
+    <style name="box_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginHorizontal">50dp</item>
+        <item name="android:layout_marginTop">190dp</item>
+        <item name="android:layout_marginBottom">300dp</item>
+        <item name="android:background">@drawable/menu_bg</item>
+    </style>
+
+    <style name="logo_style">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/logo</item>
+    </style>
+
+    <style name="close_style">
+        <item name="android:layout_width">30sp</item>
+        <item name="android:layout_height">30sp</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:background">@drawable/close_button</item>
+    </style>
+
+
+</resources>

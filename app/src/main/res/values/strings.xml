@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Resources_YOU</string>
+    <string name="first_name_text">First Name:</string>
+    <string name="title_text">Title:</string>
+    <string name="last_name_text">Last Name:</string>
+    <string name="work_email_text">Work Email:</string>
+    <string name="enter_title_hint">Enter Title</string>
+    <string name="jonathan_hint">Jonathan</string>
+    <string name="doe_hint">Doe</string>
+    <string name="jonthan_doe_cakehr_com_hint">jonthan.doe@cakehr.com</string>
+    <string name="add_new_employee_text">Add New Employee</string>
+    <string name="this_is_also_used_as_logint_for_cakehr_hint">(This is also used as Logint for cakeHR)</string>
+</resources>
